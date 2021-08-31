@@ -20,7 +20,7 @@
             "npm config set access public",
             "npm version ${version}",
             "mkdir build",
-            "cp -r lib index.js package.json README.md build",
+            "cp -r lib index.js package.json build",
             "json:cat package.json",
             "set:versionNumber=${response.version}",
             "git tag -a ${versionNumber} -m '${versionNumber}'",
