@@ -1,6 +1,6 @@
 {
   "name": "@aux4/dispatcher.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript Event Dispatcher",
   "private": false,
   "main": "index.js",
