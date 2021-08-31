@@ -1,0 +1,27 @@
+{
+  "name": "@aux4/dispatcher.js",
+  "version": "1.0.0",
+  "description": "JavaScript Event Dispatcher",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aux4/dispatcher.js.git"
+  },
+  "keywords": [
+    "event-driven",
+    "event"
+  ],
+  "author": "aux4",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/aux4/dispatcher.js/issues"
+  },
+  "homepage": "https://github.com/aux4/dispatcher.js#readme",
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}
