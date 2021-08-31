@@ -17,6 +17,7 @@
         {
           "value": "release",
           "execute": [
+            "npm config set access public",
             "npm version ${version}",
             "mkdir build",
             "cp -r lib index.js package.json README.md build",
